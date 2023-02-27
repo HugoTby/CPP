@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 	int i = 5;
-	cout << "Saisissez une valeur : ";
-	cin >> i;
-	cout << "Hello " << i << " World!" << endl;
+	cout << "Saisissez une valeur : ";            // Printf
+	cin >> i;                                     // Scanf
+	cout << "Hello " << i << " World!" << endl;   // Printf
 }
